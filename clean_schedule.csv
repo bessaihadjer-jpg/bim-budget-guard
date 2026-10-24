@@ -1,0 +1,51 @@
+Element_ID,Category,Family_and_Type,Volume_m3,Area_m2,Material,Unit_Cost_USD
+b30e6a3c,Structural Columns,Basic Structural Columns - 5,11.66,30.71,Concrete - Cast-in-Place,473.15
+662b97f0,Floors,Basic Floors - 4,14.01,55.86,Timber - Softwood,334.31
+dddceb51,Floors,Basic Floors - 5,1.52,3.81,Timber - Softwood,50.03
+6dff358b,Walls,Basic Walls - 5,14.63,61.46,Concrete - Cast-in-Place,125.58
+d763b913,Structural Columns,Basic Structural Columns - 3,4.54,20.82,Generic Wall,329.29
+dcc7e4d5,Walls,Basic Walls - 1,8.63,34.14,Timber - Softwood,288.27
+f3e2414e,Walls,Basic Walls - 5,2.38,10.36,Concrete - Cast-in-Place,55.39
+4659f0ae,Floors,Basic Floors - 5,4.89,15.91,,262.02
+bc983f6b,Floors,Basic Floors - 1,13.7,30.83,,246.63
+5878621c,Structural Columns,Basic Structural Columns - 4,3.93,8.74,,328.43
+29183941,Structural Framing,Basic Structural Framing - 5,3.21,15.3,Steel - ASTM A992,68.73
+3558aef1,Structural Framing,Basic Structural Framing - 3,5.3,18.93,Concrete - Cast-in-Place,196.6
+ed277377,Structural Framing,Basic Structural Framing - 3,0.8,2.66,Concrete - Cast-in-Place,294.43
+10e16d82,Structural Columns,Basic Structural Columns - 1,14.0,37.74,Timber - Softwood,473.14
+7cdc3717,Floors,Basic Floors - 5,1.58,3.53,,284.27
+6c84f2af,Structural Framing,Basic Structural Framing - 5,13.92,38.23,Concrete - Cast-in-Place,416.01
+809363f8,Floors,Basic Floors - 1,13.17,47.27,Concrete - Cast-in-Place,297.32
+cc10ae30,Walls,Basic Walls - 5,5.13,11.68,Concrete - Cast-in-Place,239.31
+67bf3e03,Walls,Basic Walls - 3,14.89,34.97,Concrete - Cast-in-Place,434.56
+2ea9b176,Walls,Basic Walls - 4,13.36,56.26,Generic Wall,431.8
+31d0d9ee,Walls,Basic Walls - 4,6.9,15.13,Concrete - Cast-in-Place,118.93
+23a86b51,Structural Framing,Basic Structural Framing - 5,14.0,55.97,Concrete - Cast-in-Place,225.46
+6e29e927,Floors,Basic Floors - 4,13.21,49.72,,80.21
+80899a09,Floors,Basic Floors - 5,11.26,51.93,,51.58
+0131d699,Structural Columns,Basic Structural Columns - 5,7.53,18.75,,386.22
+aa06d5bc,Structural Framing,Basic Structural Framing - 2,13.57,41.21,Steel - ASTM A992,122.93
+59af3aaa,Floors,Basic Floors - 1,12.94,49.42,Generic Wall,324.22
+50f257ba,Structural Columns,Basic Structural Columns - 4,3.78,9.03,Steel - ASTM A992,122.6
+6adf80d9,Walls,Basic Walls - 3,0.89,2.08,Steel - ASTM A992,68.36
+e5d6cdc3,Structural Columns,Basic Structural Columns - 3,4.5,11.45,Concrete - Cast-in-Place,305.59
+ccbbf7c6,Structural Framing,Basic Structural Framing - 2,4.82,10.75,Concrete - Cast-in-Place,273.21
+cc5b933f,Walls,Basic Walls - 3,2.78,11.02,Generic Wall,330.2
+7b4323f3,Walls,Basic Walls - 4,4.34,21.13,Steel - ASTM A992,458.52
+03431aa9,Structural Columns,Basic Structural Columns - 5,2.77,12.3,,259.34
+7f0a94d9,Structural Columns,Basic Structural Columns - 5,6.03,27.95,Generic Wall,121.08
+64bfe7ec,Structural Framing,Basic Structural Framing - 3,1.7,5.71,Concrete - Cast-in-Place,269.82
+00ad2765,Walls,Basic Walls - 1,1.78,6.17,,243.02
+b5d166c4,Walls,Basic Walls - 2,8.67,29.16,Generic Wall,272.31
+aa88e706,Floors,Basic Floors - 2,6.44,29.31,,117.78
+601f5083,Floors,Basic Floors - 5,8.17,37.53,Timber - Softwood,284.03
+7774fcb1,Structural Framing,Basic Structural Framing - 4,7.03,16.4,,315.76
+d583966c,Floors,Basic Floors - 1,9.99,26.95,Timber - Softwood,201.58
+b7baa430,Walls,Basic Walls - 2,8.39,38.74,,485.69
+e603a150,Structural Framing,Basic Structural Framing - 2,10.96,52.87,Concrete - Cast-in-Place,342.36
+ab161ce5,Walls,Basic Walls - 5,2.87,6.99,Generic Wall,71.59
+97b255a4,Walls,Basic Walls - 1,13.92,44.94,Concrete - Cast-in-Place,68.21
+99a5331f,Walls,Basic Walls - 5,6.04,17.99,,341.4
+6415bfc1,Walls,Basic Walls - 4,4.05,17.62,Generic Wall,170.47
+0621830e,Structural Columns,Basic Structural Columns - 4,4.54,21.27,,322.28
+608f0054,Floors,Basic Floors - 5,14.93,49.08,Timber - Softwood,332.07
