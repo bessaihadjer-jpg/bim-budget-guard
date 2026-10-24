@@ -12,6 +12,18 @@ except ImportError:
 
 load_dotenv()
 
+# Define helper function at the top to clear the warning
+def show_mock_audit(total, mats, vols, costs):
+    st.markdown(f"""
+    ### 🔍 Executive Quantity Surveyor Audit Report
+    **Project Risk Rating:** 🟠 **HIGH RISK**
+    - **Elements Analyzed:** {total}
+    - **Missing Materials:** {mats} items require immediate property assignment.
+    - **Zero Volumes:** {vols} elements have geometric modeling errors.
+    - **Missing Unit Costs:** {costs} items lack baseline cost parameters.
+    *Recommendation: Clean up Revit family parameters before proceeding to schematic cost estimation.*
+    """)
+
 # Set page configuration
 st.set_page_config(page_title="BIM Budget Guard", page_icon="🏗️", layout="wide")
 
@@ -57,7 +69,6 @@ if uploaded_file is not None:
             api_key = os.getenv("ANTHROPIC_API_KEY")
             
             with st.spinner("AI Quantity Surveyor is analyzing the schedule..."):
-                # If a real API key is provided, try calling Claude
                 if api_key and api_key != "your_key_here" and HAS_ANTHROPIC:
                     try:
                         client = Anthropic(api_key=api_key)
@@ -84,7 +95,6 @@ if uploaded_file is not None:
                         st.warning(f"Live API call failed ({ai_err}). Displaying simulated professional audit.")
                         show_mock_audit(len(df), len(missing_material), len(zero_volume), len(missing_cost))
                 else:
-                    # Smart Mock Response for instant demo & video recording
                     import time
                     time.sleep(1)
                     st.success("Analysis Complete (AI Agent Simulation)")
@@ -109,14 +119,3 @@ if uploaded_file is not None:
         st.error(f"Error reading the file: {e}")
 else:
     st.info("Awaiting file upload...")
-
-def show_mock_audit(total, mats, vols, costs):
-    st.markdown(f"""
-    ### 🔍 Executive Quantity Surveyor Audit Report
-    **Project Risk Rating:** 🟠 **HIGH RISK**
-    - **Elements Analyzed:** {total}
-    - **Missing Materials:** {mats} items require immediate property assignment.
-    - **Zero Volumes:** {vols} elements have geometric modeling errors.
-    - **Missing Unit Costs:** {costs} items lack baseline cost parameters.
-    *Recommendation: Clean up Revit family parameters before proceeding to schematic cost estimation.*
-    """)
