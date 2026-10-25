@@ -18,3 +18,5 @@ Early-stage Building Information Models (BIM) often lack granular material data,
    ```bash
    git clone [https://github.com/bessaihadjer-jpg/bim-budget-guard.git](https://github.com/bessaihadjer-jpg/bim-budget-guard.git)
    cd bim-budget-guard
+   ## Author & Contributions
+- **Hadjer Bessai** – Lead Architect & Developer: Designed the architectural domain logic, data processing pipeline, UI/UX workflow, and Anthropic Claude AI integration.
